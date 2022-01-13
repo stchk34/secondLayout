@@ -17,8 +17,8 @@ body{
     font-style: normal;
     font-weight: 400;
     src: local(''),
-         url('../fonts/pt-sans-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/pt-sans-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('fonts/pt-sans-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/pt-sans-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
 .container {
@@ -99,12 +99,12 @@ padding: 60px 140px;
   text-decoration: underline;
 }
 .slider_center{
-  height: 300px;
-  margin: 0px 80px 0px 50px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 890px;
+    height: 300px;
+    margin: 0px 80px 0px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 940px;
 }
 .background_slider{
   display: flex;
@@ -174,14 +174,14 @@ main{
   text-decoration: underline;
 }
 .text{
-  text-align: justify;
-  line-height: 22px;
-  margin-top: 22px;
-  width: 450px;
-  height: 350px;
-  color: #767676;
-  font-family: "PT Sans";
-  font-size: 14px;
+    text-align: justify;
+    line-height: 22px;
+    margin-top: 22px;
+    width: 480px;
+    height: 350px;
+    color: #767676;
+    font-family: "PT Sans";
+    font-size: 14px;
 }
 .text h1{
   padding: 15px 0px 0px 10px;
